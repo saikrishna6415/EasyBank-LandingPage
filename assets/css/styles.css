@@ -1,0 +1,72 @@
+:root {
+  --dark-blue: hsl(233, 26%, 24%);
+  --lime-green: hsl(136, 65%, 51%);
+  --bright-cyan: hsl(192, 70%, 51%);
+  --gray-blue: hsl(233, 8%, 62%);
+  --light-gray-blue: hsl(220, 16%, 96%);
+  --very-light-gray: hsl(0, 0%, 98%);
+  --white: hsl(0, 0%, 100%);
+  --gradient: linear-gradient(90deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* BASIC STYLE  */
+body {
+  font-size: 18px;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 300;
+  color: var(--dark-blue);
+}
+a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--dark-blue);
+  font-weight: 400;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+.container {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 400px) {
+  .container {
+    max-width: 580px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1100px;
+  }
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
