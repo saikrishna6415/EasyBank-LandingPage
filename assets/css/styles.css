@@ -64,11 +64,11 @@ button {
 }
 
 .hero-img {
-    width: 100%;
-    text-align: center;
-    background-image: url("/images/bg-intro-mobile.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
+  width: 100%;
+  text-align: center;
+  background-image: url("/images/bg-intro-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .mockups {
@@ -114,7 +114,7 @@ button {
   line-height: 25px;
 }
 .articles {
-  padding: 100px;
+  padding: 3em;
   background-color: var(--very-light-gray);
 }
 
@@ -136,7 +136,7 @@ button {
 }
 
 .article {
-  padding: 30px;
+  padding: 20px;
   background-color: white;
 }
 
@@ -165,9 +165,8 @@ footer {
   padding: 30px;
   color: white;
 }
-.footer-logo img{
+.footer-logo img {
   margin: 10px 0px;
-  background-color: white;
 }
 .footer-menu {
   margin: 20px 0px;
@@ -175,7 +174,7 @@ footer {
   grid-template-columns: 1fr;
   grid-gap: 20px;
 }
-.social a{
+.social a {
   display: inline-block;
   padding: 10px;
 }
@@ -186,8 +185,11 @@ footer {
 .attribution {
   font-size: 11px;
   text-align: center;
+  padding: 10px;
+
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+  text-decoration: none;
 }
