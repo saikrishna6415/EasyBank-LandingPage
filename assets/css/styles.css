@@ -64,24 +64,17 @@ button {
 }
 
 .hero-img {
-  background: url("/images/bg-intro-mobile.svg");
-  background-position: left;
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: 100%;
+    width: 100%;
+    text-align: center;
+    background-image: url("/images/bg-intro-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
-.background {
-  width: 100%;
+.mockups {
+  left: 0;
+  width: 80%;
 }
-
-.mockups img {
-  position: relative;
-  overflow: hidden;
-  top: 0px;
-  width: 100%;
-} 
-
 .why {
   padding: 100px;
   background-color: var(--light-gray-blue);
