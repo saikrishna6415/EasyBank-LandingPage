@@ -63,15 +63,22 @@ button {
   line-height: 25px;
 }
 
+.hero-img {
+  background: url("/images/bg-intro-mobile.svg");
+  background-position: left;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 
 .background {
   width: 100%;
 }
 
 .mockups img {
-  position: absolute;
+  position: relative;
   overflow: hidden;
-  top: 80px;
+  top: 0px;
   width: 100%;
 } 
 
