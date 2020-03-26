@@ -114,7 +114,7 @@ button {
   line-height: 25px;
 }
 .articles {
-  padding: 4em;
+  padding: 3em;
   background-color: var(--very-light-gray);
 }
 
@@ -167,7 +167,6 @@ footer {
 }
 .footer-logo img {
   margin: 10px 0px;
-  background-color: white;
 }
 .footer-menu {
   margin: 20px 0px;
