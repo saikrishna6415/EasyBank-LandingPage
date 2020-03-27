@@ -193,7 +193,7 @@ footer button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 70%;
+  /* width: 70%; */
 }
 
 .social a {
@@ -282,12 +282,12 @@ footer button {
     grid-template-columns: 1fr;
     gap: 10px;
     text-align: center;
+    justify-items: center;
     padding: 30px;
     color: white;
   }
-  .footer-logo img {
-    margin: 10px 0px;
-    width: 90%;
+  .footer-logo div{
+    margin: 20px;
   }
 
   .footer-menu1 div,
