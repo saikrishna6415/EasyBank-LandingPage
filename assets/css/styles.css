@@ -219,6 +219,7 @@ footer button {
   font-size: 16px;
   color: var(--gray-blue);
 }
+#close,
 #hamburger {
   display: none;
 }
@@ -319,5 +320,5 @@ footer button {
   .attribution a {
     color: hsl(228, 45%, 44%);
     text-decoration: none;
-  } */
-}
+  }*/
+} 
