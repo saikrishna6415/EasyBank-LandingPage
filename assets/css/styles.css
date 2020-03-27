@@ -52,7 +52,7 @@ footer button {
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color:var(--very-light-gray);
+  background-color: var(--very-light-gray);
 }
 
 .hero-content {
@@ -76,7 +76,7 @@ footer button {
 .hero-img {
   background: url("/images/bg-intro-desktop.svg");
   background-repeat: no-repeat;
-  background-position: left ;
+  background-position: left;
   position: relative;
 }
 
@@ -103,7 +103,7 @@ footer button {
   background-color: var(--light-gray-blue);
 }
 
-.why-heading{
+.why-heading {
   font-size: 2em;
   color: var(--dark-blue);
   margin-bottom: 2.2em;
@@ -177,29 +177,63 @@ footer button {
 
 .article-desc {
   margin-bottom: 1.23em;
-  color:var(--gray-blue);
+  color: var(--gray-blue);
   font-size: 1em;
 }
 
-footer {
+.footer {
   padding: 6.2em;
-  background-color:var(--dark-blue);
+  background-color: var(--dark-blue);
   color: white;
   display: grid;
-  grid-template-columns: 2fr 2fr 2fr 1fr 2fr;
-  gap: 3em;
+  grid-template-columns: 3fr 2fr 2fr 3fr;
+  gap: 2em;
 }
-
 .footer-logo {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-#close,
+
+.social a {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-menu1 div,
+.footer-menu2 div {
+  margin-bottom: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  white-space: nowrap;
+}
+
+.copyright {
+  font-size: 16px;
+  color: var(--gray-blue);
+}
 #hamburger {
   display: none;
 }
+.attribution {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
 
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+/* for desktop */
 @media screen and (max-width: 1024px) {
   .header,
   .services,
@@ -229,7 +263,7 @@ footer {
   }
   .mockups img {
     position: relative;
-    top:-170px;
+    top: -170px;
   }
   .why-title,
   .why-desc,
@@ -241,15 +275,49 @@ footer {
   .articles-grid {
     grid-template-columns: 1fr;
   }
-  footer {
+  .footer {
+    background-color: var(--dark-blue);
     grid-template-columns: 1fr;
     gap: 10px;
     text-align: center;
     padding: 30px;
+    color: white;
+  }
+  .footer-logo img {
+    margin: 10px 0px;
+    width: 90%;
+  }
+
+  .footer-menu1 div,
+  .footer-menu2 div {
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+  .social a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .copyright {
+    margin: 10px 0px;
+    align-items: center;
+  }
+  .copyright div {
+    margin-top: 10px;
   }
 
   #hamburger {
     display: block;
   }
+  /* .attribution {
+    font-size: 11px;
+    text-align: center;
+    padding: 10px;
+  }
 
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+  } */
 }
