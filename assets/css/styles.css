@@ -193,11 +193,12 @@ footer button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 70%;
 }
 
 .social a {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .footer-menu1 div,
