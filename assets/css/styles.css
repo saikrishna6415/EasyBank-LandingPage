@@ -52,7 +52,7 @@ footer button {
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: var(--very-light-gray);
+  background-color:var(--very-light-gray);
 }
 
 .hero-content {
@@ -76,7 +76,7 @@ footer button {
 .hero-img {
   background: url("/images/bg-intro-desktop.svg");
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: left ;
   position: relative;
 }
 
@@ -103,7 +103,7 @@ footer button {
   background-color: var(--light-gray-blue);
 }
 
-.why-heading {
+.why-heading{
   font-size: 2em;
   color: var(--dark-blue);
   margin-bottom: 2.2em;
@@ -177,13 +177,13 @@ footer button {
 
 .article-desc {
   margin-bottom: 1.23em;
-  color: var(--gray-blue);
+  color:var(--gray-blue);
   font-size: 1em;
 }
 
 footer {
   padding: 6.2em;
-  background-color: var(--dark-blue);
+  background-color:var(--dark-blue);
   color: white;
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 1fr 2fr;
@@ -205,9 +205,6 @@ footer {
   .services,
   .articles {
     padding: 30px;
-  }
-  #humburger{
-    display: block;
   }
   .header button,
   .header nav ul {
@@ -232,7 +229,7 @@ footer {
   }
   .mockups img {
     position: relative;
-    top: -170px;
+    top:-170px;
   }
   .why-title,
   .why-desc,
@@ -245,36 +242,14 @@ footer {
     grid-template-columns: 1fr;
   }
   footer {
-    background-color: var(--dark-blue);
     grid-template-columns: 1fr;
-    gap: 30px;
+    gap: 10px;
     text-align: center;
     padding: 30px;
-    color: white;
-  }
-  .footer-logo img {
-    margin: 10px 0px;
-  }
-  .footer-menu {
-    margin: 20px 0px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
-  }
-  .social a {
-    display: inline-block;
-    padding: 10px;
-  }
-  .footer-copyright button {
-    margin: 10px 0px;
   }
 
-  .attribution {
-    font-size: 11px;
-    text-align: center;
+  #hamburger {
+    display: block;
   }
 
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
 }
