@@ -193,7 +193,7 @@ footer button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* width: 70%; */
+  width: 70%;
 }
 
 .social a {
@@ -211,7 +211,7 @@ footer button {
 .copyright {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-end;
   white-space: nowrap;
 }
