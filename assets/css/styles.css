@@ -234,8 +234,7 @@ footer button {
   text-decoration: none;
 }
 
-/* for desktop */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
   .header,
   .services,
   .articles {
@@ -268,13 +267,14 @@ footer button {
   }
   .why-title,
   .why-desc,
-  .card,
+  .why-card,
   .articles-heading {
     text-align: center;
   }
   .why-grid,
   .articles-grid {
     grid-template-columns: 1fr;
+    justify-content: center;
   }
   .footer {
     background-color: var(--dark-blue);
