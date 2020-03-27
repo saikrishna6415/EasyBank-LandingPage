@@ -206,6 +206,9 @@ footer {
   .articles {
     padding: 30px;
   }
+  #humburger{
+    display: block;
+  }
   .header button,
   .header nav ul {
     display: none;
