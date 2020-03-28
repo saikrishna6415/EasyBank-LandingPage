@@ -236,6 +236,13 @@ footer button {
 }
 
 @media screen and (max-width: 700px) {
+  .header {
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+    background-color: #fff;
+}
   .header,
   .services,
   .articles {
@@ -261,10 +268,17 @@ footer button {
   }
   .hero-title {
     font-size: 40px;
+    margin-top:1.25em
+  }
+  .hero-img {
+    background: url("/images/bg-intro-mobile.svg");
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .mockups img {
     position: relative;
-    top: -170px;
+    top: -100px;
   }
   .why-title,
   .why-desc,
@@ -286,7 +300,7 @@ footer button {
     padding: 30px;
     color: white;
   }
-  .footer-logo div{
+  .footer-logo div {
     margin: 20px;
   }
 
@@ -322,4 +336,4 @@ footer button {
     color: hsl(228, 45%, 44%);
     text-decoration: none;
   }*/
-} 
+}
